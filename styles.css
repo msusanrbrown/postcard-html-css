@@ -1,0 +1,116 @@
+
+body{
+    
+    background-color:black;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+ /*.container {
+    background-color: rgb(18, 20, 20);
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+
+    justify-content: center;
+    align-items: center;
+}*/
+
+.postcard {
+    width:600px; 
+    flex-direction:column;
+    height:400px;
+    background-color:white;
+   margin-top: 200px;
+    display:flex;
+    font-family:'Times New Roman', Times, serif;
+    text-align: center;
+    
+}
+
+.kitten {
+    width: 70px;
+    height: 70px;
+    padding-top:15px;
+    
+}
+
+.first-row{
+    display:flex;
+    flex-shrink:0;
+    flex-direction:row;
+    justify-content:space-between;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-right:30px;
+    height:100px;
+
+}
+
+.second-row{
+    
+    display:flex;
+    flex-direction:row;
+    height:200px;
+ 
+}
+
+.second-row-left{
+    flex-basis:50%;  
+    flex-shrink: 0;
+    padding-left:20px;
+    padding-right:20px;
+    
+    text-align: left;
+   
+   
+}
+
+.second-row-right{
+   flex-basis:50%;  
+    
+  text-align: left;
+  padding:20px;
+    
+   
+}
+
+.third-row {
+    
+    display:flex;
+    height:100px;
+    text-align: center;
+    flex-direction:row;
+    justify-content:center;
+    align-items: center;
+   
+}
+
+input{
+    
+  border-top:0;
+  border-right: 0;
+  border-left: 0;
+  border-bottom:0.1px ridge gray;
+  margin-top: 5px;
+  margin-bottom: 20px;
+  width:100%;
+  
+  
+
+}
+
+
+button{
+    background-color:rgb(214, 203, 203);
+  border: none;
+  color:black;
+  padding: 15px;
+  text-align: center;
+  display: inline-block;
+  font-size: 16px;
+  margin-top: 5px;
+  border-radius: 10px;
+  
+}
